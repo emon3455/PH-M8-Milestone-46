@@ -1,0 +1,9 @@
+Web Component:
+    We can identify component in 4 ways:
+        1. Similar in look different in data
+        2. Container Component.(when similar kind of data are stored in a container)
+        3. No pattern but breakdown for working purposes.
+        4. Stand alone component.
+
+
+
