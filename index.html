@@ -5,9 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Countries</title>
-    
+
+    <style>
+
+        #countries-container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+        }
+        .country{
+            border: 2px solid #9900ff;
+            padding: 1rem;
+        }
+        .country img{
+           width: 300px;
+        }
+
+    </style>
+
+
 </head>
 <body>
+
+    <h2>Lets explore All the countries</h2>
+
+    <div id="countries-container">
+
+        <!-- all countries will load here -->
+
+    </div>
+
+
     
+    <script src="./js/countries.js"></script>
+
 </body>
 </html>
