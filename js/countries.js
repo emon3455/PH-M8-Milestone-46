@@ -9,15 +9,16 @@ const displayCountries=(countries)=>{
 
     const container = document.getElementById("countries-container");
     container.innerHTML="";
-     
+
     countries.forEach(country => {
+        const {name,flags,region} = country;
         container.innerHTML +=`
 
             <div class="country">
-                <h2>Name: ${country.name.common}</h2>
-                <img src="${country.flags.png}" alt="">
+                <h2>Name: ${name.common}</h2>
+                <p> Region: ${region} </p>
+                <img src="${flags.png}" alt="">
             </div>
-
         `;
 
     });
